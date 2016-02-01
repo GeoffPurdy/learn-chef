@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <h1>hello from <%= node['fqdn'] %></h1>
+    <p> <%= node['platform'] %>
+    <p> <%= node['platform_version'] %>
+    <p> <%= node['memory']['total'] %> RAM
+    <p> <%= node['cpu']['total'] %> CPUs
+  </body>
+</html>
